@@ -1,0 +1,17 @@
+{
+  "id": "REPLACE_NODE_ID",
+  "parent": null,
+  "reference_nodes": [],
+  "hypothesis": "REPLACE_ME",
+  "operator": "draft",
+  "author_agent_id": "REPLACE_REAL_CHILD_ID",
+  "workspace": "/ABSOLUTE/WORKSPACE",
+  "source_commit_or_snapshot": null,
+  "run_ids": [],
+  "status": "planned",
+  "reason": "REPLACE_WITH_EVIDENCE_AND_DECISION",
+  "branch": null,
+  "slot": "REPLACE_baseline_A_or_B",
+  "source_hash": null,
+  "snapshot_manifest_sha256": null
+}

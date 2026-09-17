@@ -1,0 +1,20 @@
+{
+  "name": "auto-research-team",
+  "version": "0.1.1",
+  "description": "A Codex-native multi-agent research owner for engineering and algorithm experiments. No external model API required.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AutoResearch Team",
+    "shortDescription": "面向工程实现与算法研究的多智能体 Owner",
+    "longDescription": "从目标和口述/Markdown insight 出发，以原生子代理完成方案、实现、受控实验、分析和独立验证。只在必要决策或结项时汇报。需要本地项目、shell 与 Codex 子代理能力。",
+    "developerName": "Personal Research",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "作为研究 Owner，读取我的目标和 insight，组织子代理完成工程实现、实验与独立验证；仅在必要决策或结项时向我汇报。"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "owner_agent_id": "REPLACE_REAL_MAIN_THREAD_ID",
+  "max_open_children": 3,
+  "max_candidate_workspaces": 2,
+  "managed_evaluation_slots": 1,
+  "children": [],
+  "child_entry_fields": [
+    "agent_id",
+    "role",
+    "node_id",
+    "mission",
+    "write_scope",
+    "artifact_path",
+    "status",
+    "workspace",
+    "lease_epoch"
+  ],
+  "workspaces": [],
+  "workspace_entry_fields": [
+    "slot",
+    "path",
+    "branch",
+    "node_id",
+    "writer_agent_id",
+    "lease_epoch",
+    "state"
+  ]
+}

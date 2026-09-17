@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "mode": "algorithm",
+  "allowed_workspaces": [
+    "/ABSOLUTE/BASELINE",
+    "/ABSOLUTE/CANDIDATE_A",
+    "/ABSOLUTE/CANDIDATE_B"
+  ],
+  "tracked_paths": [
+    "src",
+    "configs",
+    "scripts",
+    "pyproject.toml",
+    "REPLACE_WITH_ACTUAL_DEPENDENCY_LOCK_FILE"
+  ],
+  "protected_files": [
+    "/ABSOLUTE/TASK/evaluator.py",
+    "/ABSOLUTE/TASK/data-and-dependencies.json"
+  ],
+  "evaluation_command": [
+    "python3",
+    "/ABSOLUTE/TASK/evaluator.py",
+    "--candidate",
+    "{workspace}",
+    "--output",
+    "{output}",
+    "--seed",
+    "{seed}",
+    "--stage",
+    "{stage}"
+  ],
+  "required_checks": [
+    "reference_correctness",
+    "regression_suite"
+  ],
+  "primary_metric": {
+    "name": "latency_ms",
+    "direction": "min",
+    "minimum_improvement": 0,
+    "target": null
+  },
+  "confirmation_seeds": [
+    101,
+    202,
+    303
+  ],
+  "budget": {
+    "max_runs": 12,
+    "max_run_seconds": 300,
+    "max_total_seconds": 1800,
+    "confirmation_reserve_fraction": 0.3
+  },
+  "baseline_workspace": "/ABSOLUTE/BASELINE",
+  "baseline_expected_failures": [],
+  "source_snapshot_policy": "required"
+}

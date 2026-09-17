@@ -1,0 +1,46 @@
+test_algorithm_cannot_exempt_baseline_correctness (test_researchctl.RuntimeTests.test_algorithm_cannot_exempt_baseline_correctness) ... ok
+test_allowlist_enforced (test_researchctl.RuntimeTests.test_allowlist_enforced) ... ok
+test_author_cannot_self_review (test_researchctl.RuntimeTests.test_author_cannot_self_review) ... ok
+test_baseline_source_is_fixed (test_researchctl.RuntimeTests.test_baseline_source_is_fixed) ... ok
+test_blocked_task_does_not_run (test_researchctl.RuntimeTests.test_blocked_task_does_not_run) ... ok
+test_blockers_prevent_pass (test_researchctl.RuntimeTests.test_blockers_prevent_pass) ... ok
+test_candidate_change_after_verification_blocks (test_researchctl.RuntimeTests.test_candidate_change_after_verification_blocks) ... ok
+test_cannot_claim_candidate_as_baseline (test_researchctl.RuntimeTests.test_cannot_claim_candidate_as_baseline) ... ok
+test_compare_matched_pairs (test_researchctl.RuntimeTests.test_compare_matched_pairs) ... ok
+test_confirmation_actor_must_be_reviewer (test_researchctl.RuntimeTests.test_confirmation_actor_must_be_reviewer) ... ok
+test_confirmation_slots_reserved (test_researchctl.RuntimeTests.test_confirmation_slots_reserved) ... ok
+test_crash_consumes_budget (test_researchctl.RuntimeTests.test_crash_consumes_budget) ... ok
+test_engineering_baseline_cannot_be_candidate (test_researchctl.RuntimeTests.test_engineering_baseline_cannot_be_candidate) ... ok
+test_engineering_baseline_expected_failure (test_researchctl.RuntimeTests.test_engineering_baseline_expected_failure) ... ok
+test_evaluator_change_before_run_blocks (test_researchctl.RuntimeTests.test_evaluator_change_before_run_blocks) ... ok
+test_evaluator_change_during_run_invalidates (test_researchctl.RuntimeTests.test_evaluator_change_during_run_invalidates) ... ok
+test_expected_failure_does_not_exempt_candidate (test_researchctl.RuntimeTests.test_expected_failure_does_not_exempt_candidate) ... ok
+test_failed_correctness_is_not_success (test_researchctl.RuntimeTests.test_failed_correctness_is_not_success) ... ok
+test_false_procedure_valid_is_rejected (test_researchctl.RuntimeTests.test_false_procedure_valid_is_rejected) ... ok
+test_freeze_and_refreeze (test_researchctl.RuntimeTests.test_freeze_and_refreeze) ... ok
+test_independent_confirmations_can_finish (test_researchctl.RuntimeTests.test_independent_confirmations_can_finish) ... ok
+test_init_missing_insight_is_nonmutating (test_researchctl.RuntimeTests.test_init_missing_insight_is_nonmutating) ... ok
+test_init_preserves_insight (test_researchctl.RuntimeTests.test_init_preserves_insight) ... ok
+test_init_refuses_duplicate_and_traversal (test_researchctl.RuntimeTests.test_init_refuses_duplicate_and_traversal) ... ok
+test_malformed_results_fail_closed (test_researchctl.RuntimeTests.test_malformed_results_fail_closed) ... ok
+test_max_direction (test_researchctl.RuntimeTests.test_max_direction) ... ok
+test_modified_artifact_or_cached_metrics_rejected (test_researchctl.RuntimeTests.test_modified_artifact_or_cached_metrics_rejected) ... ok
+test_negative_and_inconclusive_are_separate (test_researchctl.RuntimeTests.test_negative_and_inconclusive_are_separate) ... ok
+test_no_improvement_blocks_pass (test_researchctl.RuntimeTests.test_no_improvement_blocks_pass) ... ok
+test_observed_no_gain_can_close (test_researchctl.RuntimeTests.test_observed_no_gain_can_close) ... ok
+test_protocol_rejects_bad_values (test_researchctl.RuntimeTests.test_protocol_rejects_bad_values) ... ok
+test_recover_does_not_override_live_process (test_researchctl.RuntimeTests.test_recover_does_not_override_live_process) ... ok
+test_recover_orphan_needs_explicit_confirmation (test_researchctl.RuntimeTests.test_recover_orphan_needs_explicit_confirmation) ... ok
+test_search_only_runs_cannot_finish (test_researchctl.RuntimeTests.test_search_only_runs_cannot_finish) ... ok
+test_source_change_during_run_invalidates (test_researchctl.RuntimeTests.test_source_change_during_run_invalidates) ... ok
+test_target_not_met_blocks_pass (test_researchctl.RuntimeTests.test_target_not_met_blocks_pass) ... ok
+test_task_lock_prevents_two_runners (test_researchctl.RuntimeTests.test_task_lock_prevents_two_runners) ... ok
+test_time_budget_reserved (test_researchctl.RuntimeTests.test_time_budget_reserved) ... ok
+test_timeout_stops_process (test_researchctl.RuntimeTests.test_timeout_stops_process) ... ok
+test_total_run_budget_includes_failures (test_researchctl.RuntimeTests.test_total_run_budget_includes_failures) ... ok
+test_valid_run_and_result_artifact (test_researchctl.RuntimeTests.test_valid_run_and_result_artifact) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 29.117s
+
+OK

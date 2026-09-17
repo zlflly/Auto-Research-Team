@@ -1,0 +1,11 @@
+test_manifest_versions_match (test_repository_docs.RepositoryPackagingTests.test_manifest_versions_match) ... ok
+test_owner_loads_policy_and_examples_exist (test_repository_docs.RepositoryPackagingTests.test_owner_loads_policy_and_examples_exist) ... ok
+test_policy_and_agents_asset_are_identical (test_repository_docs.RepositoryPackagingTests.test_policy_and_agents_asset_are_identical) ... ok
+test_relative_markdown_links_resolve (test_repository_docs.RepositoryPackagingTests.test_relative_markdown_links_resolve) ... ok
+test_standalone_install_copies_policy_scripts_without_editing_agents (test_repository_docs.RepositoryPackagingTests.test_standalone_install_copies_policy_scripts_without_editing_agents) ... ok
+test_templates_enable_required_profile (test_repository_docs.RepositoryPackagingTests.test_templates_enable_required_profile) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK

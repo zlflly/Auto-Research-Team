@@ -1,0 +1,23 @@
+{
+  "verdict": "inconclusive",
+  "reviewer_agent_id": "REPLACE_WITH_REAL_REVIEWER_THREAD_ID",
+  "builder_agent_ids": [
+    "REPLACE_WITH_REAL_BUILDER_THREAD_ID"
+  ],
+  "protocol_hash": "REPLACE_WITH_FROZEN_HASH",
+  "candidate_node_id": "REPLACE_WITH_NODE_ID",
+  "evidence_run_ids": [],
+  "claim_scope": "empirical, limited to the frozen evaluation protocol",
+  "summary": "Replace with the supported conclusion.",
+  "blocking_issues": [
+    {
+      "issue": "No verification evidence supplied yet.",
+      "evidence": "",
+      "impact": "",
+      "minimal_check": ""
+    }
+  ],
+  "limitations": [
+    "Replace with actual unresolved limitations."
+  ]
+}

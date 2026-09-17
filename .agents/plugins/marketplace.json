@@ -1,0 +1,20 @@
+{
+  "name": "personal-research",
+  "interface": {
+    "displayName": "Personal Research"
+  },
+  "plugins": [
+    {
+      "name": "auto-research-team",
+      "source": {
+        "source": "local",
+        "path": "./plugins/auto-research-team"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "AutoResearch Team"
+  short_description: "多智能体研究团队：从目标与洞见推进工程实现、实验分析及独立验证"
+  default_prompt: "使用 $auto-research 作为 Owner，读取我的目标与 insight，在授权范围内组织子代理推进，完成或遇到必要决策时汇报。"
+policy:
+  allow_implicit_invocation: false

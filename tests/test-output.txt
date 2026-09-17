@@ -1,0 +1,121 @@
+AutoResearch Team 0.1.1 — local module test outputs
+Total: 90 passed; no native-host test claimed.
+
+=== install: independently executed module ===
+test_conflicting_catalog_not_overwritten (test_install.InstallTests.test_conflicting_catalog_not_overwritten) ... ok
+test_different_installed_content_not_overwritten (test_install.InstallTests.test_different_installed_content_not_overwritten) ... ok
+test_disabled_existing_config_not_overwritten (test_install.InstallTests.test_disabled_existing_config_not_overwritten) ... ok
+test_dry_run_does_not_write (test_install.InstallTests.test_dry_run_does_not_write) ... ok
+test_invalid_config_preflight_leaves_no_plugin (test_install.InstallTests.test_invalid_config_preflight_leaves_no_plugin) ... ok
+test_plugin_install_is_idempotent (test_install.InstallTests.test_plugin_install_is_idempotent) ... ok
+test_plugin_prevents_duplicate_skill (test_install.InstallTests.test_plugin_prevents_duplicate_skill) ... ok
+test_portable_manifest_and_skill_structure (test_install.InstallTests.test_portable_manifest_and_skill_structure) ... ok
+test_preserves_marketplace_name_and_other_config (test_install.InstallTests.test_preserves_marketplace_name_and_other_config) ... ok
+test_skill_only_self_contained (test_install.InstallTests.test_skill_only_self_contained) ... ok
+test_symlink_install_target_rejected (test_install.InstallTests.test_symlink_install_target_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.033s
+
+OK
+
+=== runtime: independently executed module ===
+test_algorithm_cannot_exempt_baseline_correctness (test_researchctl.RuntimeTests.test_algorithm_cannot_exempt_baseline_correctness) ... ok
+test_allowlist_enforced (test_researchctl.RuntimeTests.test_allowlist_enforced) ... ok
+test_author_cannot_self_review (test_researchctl.RuntimeTests.test_author_cannot_self_review) ... ok
+test_baseline_source_is_fixed (test_researchctl.RuntimeTests.test_baseline_source_is_fixed) ... ok
+test_blocked_task_does_not_run (test_researchctl.RuntimeTests.test_blocked_task_does_not_run) ... ok
+test_blockers_prevent_pass (test_researchctl.RuntimeTests.test_blockers_prevent_pass) ... ok
+test_candidate_change_after_verification_blocks (test_researchctl.RuntimeTests.test_candidate_change_after_verification_blocks) ... ok
+test_cannot_claim_candidate_as_baseline (test_researchctl.RuntimeTests.test_cannot_claim_candidate_as_baseline) ... ok
+test_compare_matched_pairs (test_researchctl.RuntimeTests.test_compare_matched_pairs) ... ok
+test_confirmation_actor_must_be_reviewer (test_researchctl.RuntimeTests.test_confirmation_actor_must_be_reviewer) ... ok
+test_confirmation_slots_reserved (test_researchctl.RuntimeTests.test_confirmation_slots_reserved) ... ok
+test_crash_consumes_budget (test_researchctl.RuntimeTests.test_crash_consumes_budget) ... ok
+test_engineering_baseline_cannot_be_candidate (test_researchctl.RuntimeTests.test_engineering_baseline_cannot_be_candidate) ... ok
+test_engineering_baseline_expected_failure (test_researchctl.RuntimeTests.test_engineering_baseline_expected_failure) ... ok
+test_evaluator_change_before_run_blocks (test_researchctl.RuntimeTests.test_evaluator_change_before_run_blocks) ... ok
+test_evaluator_change_during_run_invalidates (test_researchctl.RuntimeTests.test_evaluator_change_during_run_invalidates) ... ok
+test_expected_failure_does_not_exempt_candidate (test_researchctl.RuntimeTests.test_expected_failure_does_not_exempt_candidate) ... ok
+test_failed_correctness_is_not_success (test_researchctl.RuntimeTests.test_failed_correctness_is_not_success) ... ok
+test_false_procedure_valid_is_rejected (test_researchctl.RuntimeTests.test_false_procedure_valid_is_rejected) ... ok
+test_freeze_and_refreeze (test_researchctl.RuntimeTests.test_freeze_and_refreeze) ... ok
+test_independent_confirmations_can_finish (test_researchctl.RuntimeTests.test_independent_confirmations_can_finish) ... ok
+test_init_missing_insight_is_nonmutating (test_researchctl.RuntimeTests.test_init_missing_insight_is_nonmutating) ... ok
+test_init_preserves_insight (test_researchctl.RuntimeTests.test_init_preserves_insight) ... ok
+test_init_refuses_duplicate_and_traversal (test_researchctl.RuntimeTests.test_init_refuses_duplicate_and_traversal) ... ok
+test_malformed_results_fail_closed (test_researchctl.RuntimeTests.test_malformed_results_fail_closed) ... ok
+test_max_direction (test_researchctl.RuntimeTests.test_max_direction) ... ok
+test_modified_artifact_or_cached_metrics_rejected (test_researchctl.RuntimeTests.test_modified_artifact_or_cached_metrics_rejected) ... ok
+test_negative_and_inconclusive_are_separate (test_researchctl.RuntimeTests.test_negative_and_inconclusive_are_separate) ... ok
+test_no_improvement_blocks_pass (test_researchctl.RuntimeTests.test_no_improvement_blocks_pass) ... ok
+test_observed_no_gain_can_close (test_researchctl.RuntimeTests.test_observed_no_gain_can_close) ... ok
+test_protocol_rejects_bad_values (test_researchctl.RuntimeTests.test_protocol_rejects_bad_values) ... ok
+test_recover_does_not_override_live_process (test_researchctl.RuntimeTests.test_recover_does_not_override_live_process) ... ok
+test_recover_orphan_needs_explicit_confirmation (test_researchctl.RuntimeTests.test_recover_orphan_needs_explicit_confirmation) ... ok
+test_search_only_runs_cannot_finish (test_researchctl.RuntimeTests.test_search_only_runs_cannot_finish) ... ok
+test_source_change_during_run_invalidates (test_researchctl.RuntimeTests.test_source_change_during_run_invalidates) ... ok
+test_target_not_met_blocks_pass (test_researchctl.RuntimeTests.test_target_not_met_blocks_pass) ... ok
+test_task_lock_prevents_two_runners (test_researchctl.RuntimeTests.test_task_lock_prevents_two_runners) ... ok
+test_time_budget_reserved (test_researchctl.RuntimeTests.test_time_budget_reserved) ... ok
+test_timeout_stops_process (test_researchctl.RuntimeTests.test_timeout_stops_process) ... ok
+test_total_run_budget_includes_failures (test_researchctl.RuntimeTests.test_total_run_budget_includes_failures) ... ok
+test_valid_run_and_result_artifact (test_researchctl.RuntimeTests.test_valid_run_and_result_artifact) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 29.117s
+
+OK
+
+=== repository: independently executed module ===
+test_baseline_mode_change_before_seal_is_rejected (test_repository_policy.RepositoryTests.test_baseline_mode_change_before_seal_is_rejected) ... ok
+test_catalog_uses_run_records_not_manual_run_index (test_repository_policy.RepositoryTests.test_catalog_uses_run_records_not_manual_run_index) ... ok
+test_changed_baseline_cannot_be_sealed (test_repository_policy.RepositoryTests.test_changed_baseline_cannot_be_sealed) ... ok
+test_cli_seal_check_catalog (test_repository_policy.RepositoryTests.test_cli_seal_check_catalog) ... ok
+test_independent_confirmation_and_finish_with_sealed_nodes (test_repository_policy.RepositoryTests.test_independent_confirmation_and_finish_with_sealed_nodes) ... ok
+test_legacy_protocol_keeps_original_behavior (test_repository_policy.RepositoryTests.test_legacy_protocol_keeps_original_behavior) ... ok
+test_manifest_damage_blocks_old_evidence (test_repository_policy.RepositoryTests.test_manifest_damage_blocks_old_evidence) ... ok
+test_mode_change_before_run_is_rejected (test_repository_policy.RepositoryTests.test_mode_change_before_run_is_rejected) ... ok
+test_mode_change_during_run_is_rejected (test_repository_policy.RepositoryTests.test_mode_change_during_run_is_rejected) ... ok
+test_new_node_in_reused_slot_preserves_old_evidence (test_repository_policy.RepositoryTests.test_new_node_in_reused_slot_preserves_old_evidence) ... ok
+test_no_overwrite_of_sealed_node (test_repository_policy.RepositoryTests.test_no_overwrite_of_sealed_node) ... ok
+test_node_binding_damage_is_rejected (test_repository_policy.RepositoryTests.test_node_binding_damage_is_rejected) ... ok
+test_node_status_and_run_id_updates_are_allowed (test_repository_policy.RepositoryTests.test_node_status_and_run_id_updates_are_allowed) ... ok
+test_nonbaseline_node_cannot_bind_baseline (test_repository_policy.RepositoryTests.test_nonbaseline_node_cannot_bind_baseline) ... ok
+test_old_node_cannot_run_modified_code (test_repository_policy.RepositoryTests.test_old_node_cannot_run_modified_code) ... ok
+test_profile_rejects_unsealed_run_without_spending_budget (test_repository_policy.RepositoryTests.test_profile_rejects_unsealed_run_without_spending_budget) ... ok
+test_saved_source_survives_workspace_removal (test_repository_policy.RepositoryTests.test_saved_source_survives_workspace_removal) ... ok
+test_seal_copies_source_and_binds_run (test_repository_policy.RepositoryTests.test_seal_copies_source_and_binds_run) ... ok
+test_seal_refuses_orphan_running_record (test_repository_policy.RepositoryTests.test_seal_refuses_orphan_running_record) ... ok
+test_seal_respects_run_lock (test_repository_policy.RepositoryTests.test_seal_respects_run_lock) ... ok
+test_snapshot_damage_blocks_old_evidence (test_repository_policy.RepositoryTests.test_snapshot_damage_blocks_old_evidence) ... ok
+test_snapshot_handles_binary_declared_source (test_repository_policy.RepositoryTests.test_snapshot_handles_binary_declared_source) ... ok
+test_source_change_during_evaluation_invalidates (test_repository_policy.RepositoryTests.test_source_change_during_evaluation_invalidates) ... ok
+test_source_profile_rejects_dot (test_repository_policy.RepositoryTests.test_source_profile_rejects_dot) ... ok
+test_source_profile_rejects_duplicate_roots (test_repository_policy.RepositoryTests.test_source_profile_rejects_duplicate_roots) ... ok
+test_source_profile_rejects_evaluator_in_workspace (test_repository_policy.RepositoryTests.test_source_profile_rejects_evaluator_in_workspace) ... ok
+test_source_profile_rejects_nested_roots (test_repository_policy.RepositoryTests.test_source_profile_rejects_nested_roots) ... ok
+test_symlinked_source_is_rejected (test_repository_policy.RepositoryTests.test_symlinked_source_is_rejected) ... ok
+test_unknown_parent_is_rejected (test_repository_policy.RepositoryTests.test_unknown_parent_is_rejected) ... ok
+test_unsafe_id_is_rejected (test_repository_policy.RepositoryTests.test_unsafe_id_is_rejected) ... ok
+test_wrong_workspace_is_rejected (test_repository_policy.RepositoryTests.test_wrong_workspace_is_rejected) ... ok
+test_two_worktrees_edit_independently_without_switching_user_checkout (test_repository_policy.WorktreeFixtureTests.test_two_worktrees_edit_independently_without_switching_user_checkout) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 11.999s
+
+OK
+
+=== packaging: independently executed module ===
+test_manifest_versions_match (test_repository_docs.RepositoryPackagingTests.test_manifest_versions_match) ... ok
+test_owner_loads_policy_and_examples_exist (test_repository_docs.RepositoryPackagingTests.test_owner_loads_policy_and_examples_exist) ... ok
+test_policy_and_agents_asset_are_identical (test_repository_docs.RepositoryPackagingTests.test_policy_and_agents_asset_are_identical) ... ok
+test_relative_markdown_links_resolve (test_repository_docs.RepositoryPackagingTests.test_relative_markdown_links_resolve) ... ok
+test_standalone_install_copies_policy_scripts_without_editing_agents (test_repository_docs.RepositoryPackagingTests.test_standalone_install_copies_policy_scripts_without_editing_agents) ... ok
+test_templates_enable_required_profile (test_repository_docs.RepositoryPackagingTests.test_templates_enable_required_profile) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK
+

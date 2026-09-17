@@ -1,0 +1,37 @@
+test_baseline_mode_change_before_seal_is_rejected (test_repository_policy.RepositoryTests.test_baseline_mode_change_before_seal_is_rejected) ... ok
+test_catalog_uses_run_records_not_manual_run_index (test_repository_policy.RepositoryTests.test_catalog_uses_run_records_not_manual_run_index) ... ok
+test_changed_baseline_cannot_be_sealed (test_repository_policy.RepositoryTests.test_changed_baseline_cannot_be_sealed) ... ok
+test_cli_seal_check_catalog (test_repository_policy.RepositoryTests.test_cli_seal_check_catalog) ... ok
+test_independent_confirmation_and_finish_with_sealed_nodes (test_repository_policy.RepositoryTests.test_independent_confirmation_and_finish_with_sealed_nodes) ... ok
+test_legacy_protocol_keeps_original_behavior (test_repository_policy.RepositoryTests.test_legacy_protocol_keeps_original_behavior) ... ok
+test_manifest_damage_blocks_old_evidence (test_repository_policy.RepositoryTests.test_manifest_damage_blocks_old_evidence) ... ok
+test_mode_change_before_run_is_rejected (test_repository_policy.RepositoryTests.test_mode_change_before_run_is_rejected) ... ok
+test_mode_change_during_run_is_rejected (test_repository_policy.RepositoryTests.test_mode_change_during_run_is_rejected) ... ok
+test_new_node_in_reused_slot_preserves_old_evidence (test_repository_policy.RepositoryTests.test_new_node_in_reused_slot_preserves_old_evidence) ... ok
+test_no_overwrite_of_sealed_node (test_repository_policy.RepositoryTests.test_no_overwrite_of_sealed_node) ... ok
+test_node_binding_damage_is_rejected (test_repository_policy.RepositoryTests.test_node_binding_damage_is_rejected) ... ok
+test_node_status_and_run_id_updates_are_allowed (test_repository_policy.RepositoryTests.test_node_status_and_run_id_updates_are_allowed) ... ok
+test_nonbaseline_node_cannot_bind_baseline (test_repository_policy.RepositoryTests.test_nonbaseline_node_cannot_bind_baseline) ... ok
+test_old_node_cannot_run_modified_code (test_repository_policy.RepositoryTests.test_old_node_cannot_run_modified_code) ... ok
+test_profile_rejects_unsealed_run_without_spending_budget (test_repository_policy.RepositoryTests.test_profile_rejects_unsealed_run_without_spending_budget) ... ok
+test_saved_source_survives_workspace_removal (test_repository_policy.RepositoryTests.test_saved_source_survives_workspace_removal) ... ok
+test_seal_copies_source_and_binds_run (test_repository_policy.RepositoryTests.test_seal_copies_source_and_binds_run) ... ok
+test_seal_refuses_orphan_running_record (test_repository_policy.RepositoryTests.test_seal_refuses_orphan_running_record) ... ok
+test_seal_respects_run_lock (test_repository_policy.RepositoryTests.test_seal_respects_run_lock) ... ok
+test_snapshot_damage_blocks_old_evidence (test_repository_policy.RepositoryTests.test_snapshot_damage_blocks_old_evidence) ... ok
+test_snapshot_handles_binary_declared_source (test_repository_policy.RepositoryTests.test_snapshot_handles_binary_declared_source) ... ok
+test_source_change_during_evaluation_invalidates (test_repository_policy.RepositoryTests.test_source_change_during_evaluation_invalidates) ... ok
+test_source_profile_rejects_dot (test_repository_policy.RepositoryTests.test_source_profile_rejects_dot) ... ok
+test_source_profile_rejects_duplicate_roots (test_repository_policy.RepositoryTests.test_source_profile_rejects_duplicate_roots) ... ok
+test_source_profile_rejects_evaluator_in_workspace (test_repository_policy.RepositoryTests.test_source_profile_rejects_evaluator_in_workspace) ... ok
+test_source_profile_rejects_nested_roots (test_repository_policy.RepositoryTests.test_source_profile_rejects_nested_roots) ... ok
+test_symlinked_source_is_rejected (test_repository_policy.RepositoryTests.test_symlinked_source_is_rejected) ... ok
+test_unknown_parent_is_rejected (test_repository_policy.RepositoryTests.test_unknown_parent_is_rejected) ... ok
+test_unsafe_id_is_rejected (test_repository_policy.RepositoryTests.test_unsafe_id_is_rejected) ... ok
+test_wrong_workspace_is_rejected (test_repository_policy.RepositoryTests.test_wrong_workspace_is_rejected) ... ok
+test_two_worktrees_edit_independently_without_switching_user_checkout (test_repository_policy.WorktreeFixtureTests.test_two_worktrees_edit_independently_without_switching_user_checkout) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 11.999s
+
+OK

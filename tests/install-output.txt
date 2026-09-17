@@ -1,0 +1,16 @@
+test_conflicting_catalog_not_overwritten (test_install.InstallTests.test_conflicting_catalog_not_overwritten) ... ok
+test_different_installed_content_not_overwritten (test_install.InstallTests.test_different_installed_content_not_overwritten) ... ok
+test_disabled_existing_config_not_overwritten (test_install.InstallTests.test_disabled_existing_config_not_overwritten) ... ok
+test_dry_run_does_not_write (test_install.InstallTests.test_dry_run_does_not_write) ... ok
+test_invalid_config_preflight_leaves_no_plugin (test_install.InstallTests.test_invalid_config_preflight_leaves_no_plugin) ... ok
+test_plugin_install_is_idempotent (test_install.InstallTests.test_plugin_install_is_idempotent) ... ok
+test_plugin_prevents_duplicate_skill (test_install.InstallTests.test_plugin_prevents_duplicate_skill) ... ok
+test_portable_manifest_and_skill_structure (test_install.InstallTests.test_portable_manifest_and_skill_structure) ... ok
+test_preserves_marketplace_name_and_other_config (test_install.InstallTests.test_preserves_marketplace_name_and_other_config) ... ok
+test_skill_only_self_contained (test_install.InstallTests.test_skill_only_self_contained) ... ok
+test_symlink_install_target_rejected (test_install.InstallTests.test_symlink_install_target_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.033s
+
+OK
